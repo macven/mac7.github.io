@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>MAC7.com</title>
+<meta charset="UTF-8">
+<meta id ="logo">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Free Web tutorials on HTML and CSS">
+
+</head>
+<style>
+html ,body {
+  background-color:black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 350px 350px;
+ background-image:URL("logo.png");
+}
+h1 , p ,h2 {
+   color:white;
+   
+   font-family:segoe script;
+}
+/* Half-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 2px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+h3 {
+  color:white;
+  font-family:segoe script;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+.signupbtn {
+    float: left;
+    width: 50%;
+    text-align:center;
+
+}
+   
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  , .signupbtn {
+       width: 100%;
+    }
+}
+
+label {
+color:white;
+}
+form{
+  width:500px;
+  display-inline-block;
+  float:left;
+  padding-left:10px;
+  padding-right:10px;
+  font-family:segoe-script;
+  color:white;
+}
+
+
+div {
+padding:0px;
+font-family:segoe-script;
+}
+ul  {
+padding:0px;
+}
+form {
+padding-left:10px;
+float:right;
+}
+</style>
+</head>
+<body>
+<h1>MAC 7</h1>
+
+<h2>Create account for MAC </h2>
+<form>
+<form action="/action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+  <form action="/action_page.php">
+  <label for="male">Male</label>
+  <input type="radio" name="gender" id="male" value="male"><br>
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" value="female"><br>
+ <div class="clearfix">
+      
+      
+     <a class="w3-bar-item w3-button" href='email.html'><button type="submit" class="signupbtn">Next</button></a>
+    </div>
+    </div>
+    <p>By creating an account you agree to our  <a class="w3-bar-item w3-button" href='tern and privacy.html'> Terms & Privacy. </a>
+<ul>
+<div class="maia-locales"><label><span>Change language:</span> <select onchange="var href=this[this.selectedIndex].value;if(href!=''){window.location.href=href};">
+<option value="/intl/af/policies/privacy/">Afrikaans
+<option value="/intl/id/policies/privacy/">Bahasa Indonesia
+<option value="/intl/ms/policies/privacy/">Bahasa Melayu
+<option value="/intl/ca/policies/privacy/">Català
+<option value="/intl/cs/policies/privacy/">Čeština
+<option value="/intl/da/policies/privacy/">Dansk
+<option value="/intl/de/policies/privacy/">Deutsch
+<option value="/intl/et/policies/privacy/">Eesti
+<option selected value="/intl/en/policies/privacy/">English
+<option value="/intl/en-GB/policies/privacy/">English (United Kingdom)
+<option value="/intl/es/policies/privacy/">Español
+<option value="/intl/es-419/policies/privacy/">Español (Latinoamérica)
+<option value="/intl/eu/policies/privacy/">Euskara
+<option value="/intl/fil/policies/privacy/">Filipino
+<option value="/intl/fr/policies/privacy/">Français
+<option value="/intl/fr-CA/policies/privacy/">Français (Canada)
+<option value="/intl/gl/policies/privacy/">Galego
+<option value="/intl/hr/policies/privacy/">Hrvatski
+<option value="/intl/zu/policies/privacy/">Isizulu
+<option value="/intl/is/policies/privacy/">Íslenska
+<option value="/intl/it/policies/privacy/">Italiano
+<option value="/intl/sw/policies/privacy/">Kiswahili
+<option value="/intl/lv/policies/privacy/">Latviešu
+<option value="/intl/lt/policies/privacy/">Lietuvių
+<option value="/intl/hu/policies/privacy/">Magyar
+<option value="/intl/nl/policies/privacy/">Nederlands
+<option value="/intl/no/policies/privacy/">Norsk
+<option value="/intl/pl/policies/privacy/">Polski
+<option value="/intl/pt-BR/policies/privacy/">Português (Brasil)
+<option value="/intl/pt-PT/policies/privacy/">Português (Portugal)
+<option value="/intl/ro/policies/privacy/">Română
+<option value="/intl/sk/policies/privacy/">Slovenčina
+<option value="/intl/sl/policies/privacy/">Slovenščina
+<option value="/intl/fi/policies/privacy/">Suomi
+<option value="/intl/sv/policies/privacy/">Svenska
+<option value="/intl/vi/policies/privacy/">Tiếng Việt
+<option value="/intl/tr/policies/privacy/">Türkçe
+<option value="/intl/el/policies/privacy/">Ελληνικά
+<option value="/intl/bg/policies/privacy/">Български
+<option value="/intl/ru/policies/privacy/">Русский
+<option value="/intl/sr/policies/privacy/">Српски
+<option value="/intl/uk/policies/privacy/">Українська
+<option value="/intl/iw/policies/privacy/">‫עברית‬
+
+<option value="/intl/ko/policies/privacy/">한국어
+<option value="/intl/zh-HK/policies/privacy/">中文 (香港)
+<option value="/intl/zh-CN/policies/privacy/">中文（简体中文）
+<option value="/intl/zh-TW/policies/privacy/">中文（繁體中文）
+<option value="/intl/ja/policies/privacy/">日本語</select></label></div>
+</ul>
+    </form>
+<?php
+// connect to FTP server
+$ftp_server = "ftp.google.com";
+$ftp_conn = ftp_connect($ftp_server) or die("Could not connect to $ftp_server");
+
+// login
+if (@ftp_login($ftp_conn, $ftp_username, $ftp_userpass))
+  {
+  echo "Connection established.";
+  }
+else
+  {
+  echo "Couldn't establish a connection.";
+  }
+
+// do something...
+
+// close connection
+ftp_close($ftp_conn);
+?> 
+    </body>
+    </html>
